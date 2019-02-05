@@ -1,12 +1,6 @@
+server:
+    port: 8006
 preffix: "Hello "
 suffix: " !!!"
 
-eureka:
-  client:
-    fetchRegistry: false
-spring.cloud.stream.bindings:
-  output:
-    destination: name
-
-    server:
-      port: 8006
+    
