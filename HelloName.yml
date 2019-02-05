@@ -3,5 +3,9 @@ server:
 preffix: "Hello "
 suffix: " !!!"
 
+spring.cloud.stream.bindings:
+  output:
+    destination: name
+
 
     
