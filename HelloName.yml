@@ -1,5 +1,4 @@
-server:
-port: 8006
+
 
 eureka:
   client:
@@ -11,3 +10,6 @@ suffix: " !!!"
 spring.cloud.stream.bindings:
   output:
     destination: name
+
+    server:
+      port: 8006
