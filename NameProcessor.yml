@@ -4,3 +4,5 @@ spring.cloud.stream.bindings:
     group: NameProcessors
   output:
     destination: uniqueName
+server:
+  port: 8004

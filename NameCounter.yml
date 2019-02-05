@@ -6,3 +6,5 @@ spring.cloud.stream.bindings:
 eureka:
   client:
     fetchRegistry: false
+server:
+  port: 8003
