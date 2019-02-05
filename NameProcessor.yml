@@ -1,0 +1,6 @@
+spring.cloud.stream.bindings:
+  input:
+    destination: name
+    group: NameProcessors
+  output:
+    destination: uniqueName

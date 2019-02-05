@@ -1,0 +1,8 @@
+spring.cloud.stream.bindings:
+  input:
+    destination: uniqueName
+    group: NameCounters
+
+eureka:
+  client:
+    fetchRegistry: false
