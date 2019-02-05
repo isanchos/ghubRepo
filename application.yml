@@ -1,6 +1,19 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
 eureka:
   client:
     fetchRegistry: true
     registerWithEureka: true
     serviceUrl:
       defaultZone: http://localhost:8001/eureka
+
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
