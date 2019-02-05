@@ -1,0 +1,22 @@
+server:
+  port: 8005
+
+eureka:
+  client:
+    registerWithEureka: false
+
+zuul:
+  ignored-services: '*'
+  routes:
+    hello:
+      path: /hello/**
+      serviceId: Hello
+      stripPrefix: false
+    hello-world:
+      path: /hello-world/**
+      serviceId: HelloWorld
+      stripPrefix: false
+    hello-counter:
+      path: /names/**
+      serviceId: NameCounter
+      stripPrefix: false
