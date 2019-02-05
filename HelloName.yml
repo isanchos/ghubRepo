@@ -1,12 +1,9 @@
-
+preffix: "Hello "
+suffix: " !!!"
 
 eureka:
   client:
     fetchRegistry: false
-
-preffix: "Hello "
-suffix: " !!!"
-
 spring.cloud.stream.bindings:
   output:
     destination: name
